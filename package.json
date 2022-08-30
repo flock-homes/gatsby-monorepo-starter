@@ -1,5 +1,5 @@
 {
-  "name": "mono-test",
+  "name": "gatsby-monorepo-starter",
   "packageManager": "yarn@3.2.3",
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.1.4",

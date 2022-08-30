@@ -3127,6 +3127,8 @@ __metadata:
     prettier: ^2.7.1
     react: ^18.2.0
     typescript: ^4.8.2
+  peerDependencies:
+    react: "*"
   languageName: unknown
   linkType: soft
 
@@ -11454,6 +11456,26 @@ __metadata:
   languageName: node
   linkType: hard
 
+"gatsby-monorepo-starter@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "gatsby-monorepo-starter@workspace:."
+  dependencies:
+    "@rushstack/eslint-patch": ^1.1.4
+    "@typescript-eslint/eslint-plugin": ^5.36.1
+    "@typescript-eslint/parser": ^5.36.1
+    eslint: ^8.23.0
+    eslint-config-airbnb-typescript: ^17.0.0
+    eslint-config-prettier: ^8.5.0
+    eslint-plugin-import: ^2.26.0
+    eslint-plugin-jsx-a11y: ^6.6.1
+    eslint-plugin-react: ^7.31.1
+    gatsby-cli: ^4.21.0
+    lefthook: ^1.1.1
+    prettier: ^2.7.1
+    typescript: ^4.8.2
+  languageName: unknown
+  linkType: soft
+
 "gatsby-page-utils@npm:^2.21.0":
   version: 2.21.0
   resolution: "gatsby-page-utils@npm:2.21.0"
@@ -15396,26 +15418,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mono-test@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "mono-test@workspace:."
-  dependencies:
-    "@rushstack/eslint-patch": ^1.1.4
-    "@typescript-eslint/eslint-plugin": ^5.36.1
-    "@typescript-eslint/parser": ^5.36.1
-    eslint: ^8.23.0
-    eslint-config-airbnb-typescript: ^17.0.0
-    eslint-config-prettier: ^8.5.0
-    eslint-plugin-import: ^2.26.0
-    eslint-plugin-jsx-a11y: ^6.6.1
-    eslint-plugin-react: ^7.31.1
-    gatsby-cli: ^4.21.0
-    lefthook: ^1.1.1
-    prettier: ^2.7.1
-    typescript: ^4.8.2
-  languageName: unknown
-  linkType: soft
-
 "move-concurrently@npm:^1.0.1":
   version: 1.0.1
   resolution: "move-concurrently@npm:1.0.1"
@@ -16328,6 +16330,21 @@ __metadata:
 "package-a@workspace:packages/package-a":
   version: 0.0.0-use.local
   resolution: "package-a@workspace:packages/package-a"
+  dependencies:
+    "@packages/component-library": "workspace:^"
+    "@types/react": ^18.0.17
+    eslint: ^8.23.0
+    gatsby: ^4.21.1
+    gatsby-plugin-typescript: ^4.21.0
+    prettier: ^2.7.1
+    react: ^18.1.0
+    react-dom: ^18.1.0
+  languageName: unknown
+  linkType: soft
+
+"package-b@workspace:packages/package-b":
+  version: 0.0.0-use.local
+  resolution: "package-b@workspace:packages/package-b"
   dependencies:
     "@packages/component-library": "workspace:^"
     "@types/react": ^18.0.17

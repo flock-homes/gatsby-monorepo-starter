@@ -1,10 +1,10 @@
 import React from "react"
-import { RatingCard } from "@packages/component-library"
+import { RatingCard } from "@shared/component-library"
 
 export default function Home() {
   return (
     <div>
-      Hello world, again! This is the second package.
+      Hello world!
       <RatingCard label="Rate this homepage!" />
     </div>
   )

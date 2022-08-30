@@ -1,5 +1,5 @@
 {
-  "name": "package-a",
+  "name": "package-b",
   "private": true,
   "description": "A simplified bare-bones starter for Gatsby",
   "version": "0.1.0",
@@ -15,7 +15,7 @@
     "format": "yarn prettier --write \"src/**/*.{js,jsx,ts,tsx,json,md,css}\""
   },
   "dependencies": {
-    "@packages/component-library": "workspace:^",
+    "@shared/component-library": "workspace:^",
     "gatsby": "^4.21.1",
     "gatsby-plugin-typescript": "^4.21.0",
     "react": "^18.1.0",

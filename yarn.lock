@@ -3102,36 +3102,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@packages/component-library@workspace:^, @packages/component-library@workspace:packages/component-library":
-  version: 0.0.0-use.local
-  resolution: "@packages/component-library@workspace:packages/component-library"
-  dependencies:
-    "@babel/core": ^7.18.13
-    "@emotion/react": ^11.10.0
-    "@emotion/styled": ^11.10.0
-    "@mdx-js/react": ^1.6.22
-    "@mui/icons-material": ^5.10.3
-    "@mui/material": ^5.10.3
-    "@storybook/addon-actions": ^6.5.10
-    "@storybook/addon-docs": ^6.5.10
-    "@storybook/addon-essentials": ^6.5.10
-    "@storybook/addon-interactions": ^6.5.10
-    "@storybook/addon-links": ^6.5.10
-    "@storybook/builder-webpack4": ^6.5.10
-    "@storybook/cli": ^6.5.10
-    "@storybook/manager-webpack4": ^6.5.10
-    "@storybook/react": ^6.5.10
-    "@storybook/testing-library": ^0.0.13
-    babel-loader: ^8.2.5
-    eslint: ^8.23.0
-    prettier: ^2.7.1
-    react: ^18.2.0
-    typescript: ^4.8.2
-  peerDependencies:
-    react: "*"
-  languageName: unknown
-  linkType: soft
-
 "@parcel/bundler-default@npm:2.6.2":
   version: 2.6.2
   resolution: "@parcel/bundler-default@npm:2.6.2"
@@ -3645,6 +3615,36 @@ __metadata:
   checksum: 597bc84e2f76c7f5f2bcedd4c4b1dd5d02524167a0f67ac588e8fbbd94666297aaf0e6a53ec46afb95554164fc1169ff782841003280e4bc98e80ab6559412c6
   languageName: node
   linkType: hard
+
+"@shared/component-library@workspace:^, @shared/component-library@workspace:shared/component-library":
+  version: 0.0.0-use.local
+  resolution: "@shared/component-library@workspace:shared/component-library"
+  dependencies:
+    "@babel/core": ^7.18.13
+    "@emotion/react": ^11.10.0
+    "@emotion/styled": ^11.10.0
+    "@mdx-js/react": ^1.6.22
+    "@mui/icons-material": ^5.10.3
+    "@mui/material": ^5.10.3
+    "@storybook/addon-actions": ^6.5.10
+    "@storybook/addon-docs": ^6.5.10
+    "@storybook/addon-essentials": ^6.5.10
+    "@storybook/addon-interactions": ^6.5.10
+    "@storybook/addon-links": ^6.5.10
+    "@storybook/builder-webpack4": ^6.5.10
+    "@storybook/cli": ^6.5.10
+    "@storybook/manager-webpack4": ^6.5.10
+    "@storybook/react": ^6.5.10
+    "@storybook/testing-library": ^0.0.13
+    babel-loader: ^8.2.5
+    eslint: ^8.23.0
+    prettier: ^2.7.1
+    react: ^18.2.0
+    typescript: ^4.8.2
+  peerDependencies:
+    react: "*"
+  languageName: unknown
+  linkType: soft
 
 "@sideway/address@npm:^4.1.3":
   version: 4.1.4
@@ -16327,11 +16327,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"package-a@workspace:packages/package-a":
+"package-a@workspace:apps/package-a":
   version: 0.0.0-use.local
-  resolution: "package-a@workspace:packages/package-a"
+  resolution: "package-a@workspace:apps/package-a"
   dependencies:
-    "@packages/component-library": "workspace:^"
+    "@shared/component-library": "workspace:^"
     "@types/react": ^18.0.17
     eslint: ^8.23.0
     gatsby: ^4.21.1
@@ -16342,11 +16342,11 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"package-b@workspace:packages/package-b":
+"package-b@workspace:apps/package-b":
   version: 0.0.0-use.local
-  resolution: "package-b@workspace:packages/package-b"
+  resolution: "package-b@workspace:apps/package-b"
   dependencies:
-    "@packages/component-library": "workspace:^"
+    "@shared/component-library": "workspace:^"
     "@types/react": ^18.0.17
     eslint: ^8.23.0
     gatsby: ^4.21.1

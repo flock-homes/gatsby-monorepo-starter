@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "noEmit": false,
+    "rootDir": "./",
+    "isolatedModules": true,
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true,
+    "declaration": true,
+    "esModuleInterop": true,
+    "jsx": "react"
+  }
+}

@@ -1,0 +1,9 @@
+pre-commit:
+  parallel: true
+  commands:
+    prettier:
+      glob: "*.{js,ts,tsx,json}"
+      run: yarn prettier --write $(echo {staged_files} | sed -e 's/js\///g') && git add $(echo {staged_files} | sed -e 's/js\///g')
+    eslint:
+      glob: "*.{js,ts,tsx,json}"
+      run: yarn workspaces foreach -p run lint --cache

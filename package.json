@@ -16,6 +16,7 @@
     "prettier": "^2.7.1",
     "typescript": "^4.8.2"
   },
+  "private": true,
   "workspaces": [
     "apps/*",
     "shared/*"

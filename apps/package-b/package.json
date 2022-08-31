@@ -17,6 +17,7 @@
   "dependencies": {
     "@shared/component-library": "1.0.0",
     "gatsby": "^4.21.1",
+    "gatsby-plugin-gatsby-cloud": "^4.22.0",
     "gatsby-plugin-typescript": "^4.21.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0"

@@ -18970,6 +18970,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["xdg-basedir", "npm:4.0.0"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:3.22.0", {\
+          "packageLocation": "./.yarn/cache/gatsby-core-utils-npm-3.22.0-57e28bbb52-3659656d95.zip/node_modules/gatsby-core-utils/",\
+          "packageDependencies": [\
+            ["gatsby-core-utils", "npm:3.22.0"],\
+            ["@babel/runtime", "npm:7.18.9"],\
+            ["ci-info", "npm:2.0.0"],\
+            ["configstore", "npm:5.0.1"],\
+            ["fastq", "npm:1.13.0"],\
+            ["file-type", "npm:16.5.4"],\
+            ["fs-extra", "npm:10.1.0"],\
+            ["got", "npm:11.8.5"],\
+            ["import-from", "npm:4.0.0"],\
+            ["lmdb", "npm:2.5.3"],\
+            ["lock", "npm:1.1.0"],\
+            ["node-object-hash", "npm:2.3.10"],\
+            ["proper-lockfile", "npm:4.1.2"],\
+            ["resolve-from", "npm:5.0.0"],\
+            ["tmp", "npm:0.2.1"],\
+            ["xdg-basedir", "npm:4.0.0"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["gatsby-graphiql-explorer", [\
@@ -19100,6 +19122,39 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packagePeers": [\
             "@parcel/core",\
             "@types/parcel__core"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["gatsby-plugin-gatsby-cloud", [\
+        ["npm:4.22.0", {\
+          "packageLocation": "./.yarn/cache/gatsby-plugin-gatsby-cloud-npm-4.22.0-be5d481ef3-f49d87e2dd.zip/node_modules/gatsby-plugin-gatsby-cloud/",\
+          "packageDependencies": [\
+            ["gatsby-plugin-gatsby-cloud", "npm:4.22.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:d0856eee30bc4e4e701f321e845ebae7f4fefaa5d2e7b44de04bcf098e99a04ee3ca94e2bba968afec394611b8bd98381d95dad6538e0381c14b38e2b1516adb#npm:4.22.0", {\
+          "packageLocation": "./.yarn/__virtual__/gatsby-plugin-gatsby-cloud-virtual-f42a8be263/0/cache/gatsby-plugin-gatsby-cloud-npm-4.22.0-be5d481ef3-f49d87e2dd.zip/node_modules/gatsby-plugin-gatsby-cloud/",\
+          "packageDependencies": [\
+            ["gatsby-plugin-gatsby-cloud", "virtual:d0856eee30bc4e4e701f321e845ebae7f4fefaa5d2e7b44de04bcf098e99a04ee3ca94e2bba968afec394611b8bd98381d95dad6538e0381c14b38e2b1516adb#npm:4.22.0"],\
+            ["@babel/runtime", "npm:7.18.9"],\
+            ["@types/gatsby", null],\
+            ["@types/webpack", null],\
+            ["fs-extra", "npm:10.1.0"],\
+            ["gatsby", "virtual:d0856eee30bc4e4e701f321e845ebae7f4fefaa5d2e7b44de04bcf098e99a04ee3ca94e2bba968afec394611b8bd98381d95dad6538e0381c14b38e2b1516adb#npm:4.21.1"],\
+            ["gatsby-core-utils", "npm:3.22.0"],\
+            ["gatsby-telemetry", "npm:3.22.0"],\
+            ["kebab-hash", "npm:0.1.2"],\
+            ["lodash", "npm:4.17.21"],\
+            ["webpack", null],\
+            ["webpack-assets-manifest", "virtual:f42a8be263b808d5157cf31964ffb826403c1d18f695480d8bd114ad6a5f7f691e078cf8b49ffc1dbbe8be0840c8ed0b713d161e5971bdd590be5612dec8ee29#npm:5.1.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/gatsby",\
+            "@types/webpack",\
+            "gatsby",\
+            "webpack"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -19321,6 +19376,25 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["configstore", "npm:5.0.1"],\
             ["fs-extra", "npm:10.1.0"],\
             ["gatsby-core-utils", "npm:3.21.0"],\
+            ["git-up", "npm:6.0.0"],\
+            ["is-docker", "npm:2.2.1"],\
+            ["lodash", "npm:4.17.21"],\
+            ["node-fetch", "virtual:870078fc88f3ca13b3962ee47b3ef0aa49c1ea448f933b74a854ff452164b2630dcb1f6b1a5ff7a468d4f0aa741f1c0ba6ca580a58d24125cc870e7b5d4afa5a#npm:2.6.7"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:3.22.0", {\
+          "packageLocation": "./.yarn/unplugged/gatsby-telemetry-npm-3.22.0-cbfd090a67/node_modules/gatsby-telemetry/",\
+          "packageDependencies": [\
+            ["gatsby-telemetry", "npm:3.22.0"],\
+            ["@babel/code-frame", "npm:7.18.6"],\
+            ["@babel/runtime", "npm:7.18.9"],\
+            ["@turist/fetch", "virtual:870078fc88f3ca13b3962ee47b3ef0aa49c1ea448f933b74a854ff452164b2630dcb1f6b1a5ff7a468d4f0aa741f1c0ba6ca580a58d24125cc870e7b5d4afa5a#npm:7.2.0"],\
+            ["@turist/time", "npm:0.0.2"],\
+            ["boxen", "npm:4.2.0"],\
+            ["configstore", "npm:5.0.1"],\
+            ["fs-extra", "npm:10.1.0"],\
+            ["gatsby-core-utils", "npm:3.22.0"],\
             ["git-up", "npm:6.0.0"],\
             ["is-docker", "npm:2.2.1"],\
             ["lodash", "npm:4.17.21"],\
@@ -22089,6 +22163,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["kebab-hash", [\
+        ["npm:0.1.2", {\
+          "packageLocation": "./.yarn/cache/kebab-hash-npm-0.1.2-e130c7867f-d3e3ecd949.zip/node_modules/kebab-hash/",\
+          "packageDependencies": [\
+            ["kebab-hash", "npm:0.1.2"],\
+            ["lodash.kebabcase", "npm:4.1.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["keyv", [\
         ["npm:3.1.0", {\
           "packageLocation": "./.yarn/cache/keyv-npm-3.1.0-81c9ff4454-bb7e8f3acf.zip/node_modules/keyv/",\
@@ -22452,6 +22536,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["lockfile", [\
+        ["npm:1.0.4", {\
+          "packageLocation": "./.yarn/cache/lockfile-npm-1.0.4-00301b5723-8de35aace8.zip/node_modules/lockfile/",\
+          "packageDependencies": [\
+            ["lockfile", "npm:1.0.4"],\
+            ["signal-exit", "npm:3.0.7"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["lodash", [\
         ["npm:4.17.21", {\
           "packageLocation": "./.yarn/cache/lodash-npm-4.17.21-6382451519-eb835a2e51.zip/node_modules/lodash/",\
@@ -22529,6 +22623,24 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/lodash.get-npm-4.4.2-7bda64ed87-e403047ddb.zip/node_modules/lodash.get/",\
           "packageDependencies": [\
             ["lodash.get", "npm:4.4.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["lodash.has", [\
+        ["npm:4.5.2", {\
+          "packageLocation": "./.yarn/cache/lodash.has-npm-4.5.2-0a10673e08-b3ec829a86.zip/node_modules/lodash.has/",\
+          "packageDependencies": [\
+            ["lodash.has", "npm:4.5.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["lodash.kebabcase", [\
+        ["npm:4.1.1", {\
+          "packageLocation": "./.yarn/cache/lodash.kebabcase-npm-4.1.1-89ffca7e1f-5a6c591619.zip/node_modules/lodash.kebabcase/",\
+          "packageDependencies": [\
+            ["lodash.kebabcase", "npm:4.1.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -24463,6 +24575,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react", "npm:18.0.17"],\
             ["eslint", "npm:8.23.0"],\
             ["gatsby", "virtual:d0856eee30bc4e4e701f321e845ebae7f4fefaa5d2e7b44de04bcf098e99a04ee3ca94e2bba968afec394611b8bd98381d95dad6538e0381c14b38e2b1516adb#npm:4.21.1"],\
+            ["gatsby-plugin-gatsby-cloud", "virtual:d0856eee30bc4e4e701f321e845ebae7f4fefaa5d2e7b44de04bcf098e99a04ee3ca94e2bba968afec394611b8bd98381d95dad6538e0381c14b38e2b1516adb#npm:4.22.0"],\
             ["gatsby-plugin-typescript", "virtual:d0856eee30bc4e4e701f321e845ebae7f4fefaa5d2e7b44de04bcf098e99a04ee3ca94e2bba968afec394611b8bd98381d95dad6538e0381c14b38e2b1516adb#npm:4.21.0"],\
             ["prettier", "npm:2.7.1"],\
             ["react", "npm:18.2.0"],\
@@ -24480,6 +24593,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react", "npm:18.0.17"],\
             ["eslint", "npm:8.23.0"],\
             ["gatsby", "virtual:d0856eee30bc4e4e701f321e845ebae7f4fefaa5d2e7b44de04bcf098e99a04ee3ca94e2bba968afec394611b8bd98381d95dad6538e0381c14b38e2b1516adb#npm:4.21.1"],\
+            ["gatsby-plugin-gatsby-cloud", "virtual:d0856eee30bc4e4e701f321e845ebae7f4fefaa5d2e7b44de04bcf098e99a04ee3ca94e2bba968afec394611b8bd98381d95dad6538e0381c14b38e2b1516adb#npm:4.22.0"],\
             ["gatsby-plugin-typescript", "virtual:d0856eee30bc4e4e701f321e845ebae7f4fefaa5d2e7b44de04bcf098e99a04ee3ca94e2bba968afec394611b8bd98381d95dad6538e0381c14b38e2b1516adb#npm:4.21.0"],\
             ["prettier", "npm:2.7.1"],\
             ["react", "npm:18.2.0"],\
@@ -30594,6 +30708,35 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             "@types/webpack-command",\
             "webpack-cli",\
             "webpack-command"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["webpack-assets-manifest", [\
+        ["npm:5.1.0", {\
+          "packageLocation": "./.yarn/cache/webpack-assets-manifest-npm-5.1.0-fad26f5290-30b0929f6a.zip/node_modules/webpack-assets-manifest/",\
+          "packageDependencies": [\
+            ["webpack-assets-manifest", "npm:5.1.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:f42a8be263b808d5157cf31964ffb826403c1d18f695480d8bd114ad6a5f7f691e078cf8b49ffc1dbbe8be0840c8ed0b713d161e5971bdd590be5612dec8ee29#npm:5.1.0", {\
+          "packageLocation": "./.yarn/__virtual__/webpack-assets-manifest-virtual-eb7349aaf1/0/cache/webpack-assets-manifest-npm-5.1.0-fad26f5290-30b0929f6a.zip/node_modules/webpack-assets-manifest/",\
+          "packageDependencies": [\
+            ["webpack-assets-manifest", "virtual:f42a8be263b808d5157cf31964ffb826403c1d18f695480d8bd114ad6a5f7f691e078cf8b49ffc1dbbe8be0840c8ed0b713d161e5971bdd590be5612dec8ee29#npm:5.1.0"],\
+            ["@types/webpack", null],\
+            ["chalk", "npm:4.1.2"],\
+            ["deepmerge", "npm:4.2.2"],\
+            ["lockfile", "npm:1.0.4"],\
+            ["lodash.get", "npm:4.4.2"],\
+            ["lodash.has", "npm:4.5.2"],\
+            ["schema-utils", "npm:3.1.1"],\
+            ["tapable", "npm:2.2.1"],\
+            ["webpack", null]\
+          ],\
+          "packagePeers": [\
+            "@types/webpack",\
+            "webpack"\
           ],\
           "linkType": "HARD"\
         }]\

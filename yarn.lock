@@ -3616,7 +3616,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@shared/component-library@workspace:^, @shared/component-library@workspace:shared/component-library":
+"@shared/component-library@1.0.0, @shared/component-library@workspace:shared/component-library":
   version: 0.0.0-use.local
   resolution: "@shared/component-library@workspace:shared/component-library"
   dependencies:
@@ -16331,7 +16331,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "package-a@workspace:apps/package-a"
   dependencies:
-    "@shared/component-library": "workspace:^"
+    "@shared/component-library": 1.0.0
     "@types/react": ^18.0.17
     eslint: ^8.23.0
     gatsby: ^4.21.1
@@ -16346,7 +16346,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "package-b@workspace:apps/package-b"
   dependencies:
-    "@shared/component-library": "workspace:^"
+    "@shared/component-library": 1.0.0
     "@types/react": ^18.0.17
     eslint: ^8.23.0
     gatsby: ^4.21.1
